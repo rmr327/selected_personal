@@ -1,0 +1,9 @@
+The purpose of this project was to automatically request to pick up work shifts based on the user's 
+calender (google calender) schedule. The groupme script listens to a specified chat, and responds to messages
+signifying someone is trying to drop their shift. If the shift being dropped meets user provided parameters
+(such as time left to shift, or availability), the bot send a message back to the GroupMe chat, stating the 
+user can pick up the shift. The shift_picker scripts listens to changes in the HTML content of the shift picking
+website (WhentoWork). If a change is detected, and a shift is available that meets the user requirements, the
+shift is picked up.
+
+This program was made to save unnessary time wasted in aquiring on-campus work shifts.
